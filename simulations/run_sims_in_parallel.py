@@ -25,7 +25,7 @@ subprocess.run([f"rm -rv ./random_walks/*"],shell=True)
 # The commands are lists of the form [binary, target file]
 commands = []
 for i in files:
-    proc = ["../../MC-DC_Simulator", f"conf_files/{i}"]
+    proc = ["../MC-DC_Simulator", f"conf_files/{i}"]
     commands.append(proc)
 
 cores = int(sys.argv[2])

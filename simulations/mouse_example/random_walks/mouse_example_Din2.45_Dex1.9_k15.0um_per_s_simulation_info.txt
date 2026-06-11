@@ -1,0 +1,45 @@
+/***********************   MC/DC Simulation Info:   *************************/
+[INFO]    Software Version:      -------------------------------2.0.3.beta
+[INFO]    Number of particles:   ------------------------------------20000
+[INFO]    Number of steps:       -------------------------------------2370
+[INFO]    Particle dynamics duration: ---------------------- 110.000000 ms
+[INFO]    Intra diffusivity:      ------------------------2.450000e-9 m^2/s
+[INFO]    Extra diffusivity:      ------------------------1.900000e-9 m^2/s
+[INFO]    T2 intra:              ------------------------------------inf s
+[INFO]    T2 extra:              ------------------------------------inf s
+[INFO]    PLY obstacles:         ------------------------------------ true
+[INFO]    Number of PLYs:        ----------------------------------------1
+[INFO]    Cylinder obstacles:    ----------------------------------- false
+[INFO]    Spherical obstacles:    ---------------------------------- false
+[INFO]    Write trajfile:        ------------------------------------ true
+[INFO]    Write to binary:       ------------------------------------ true
+[INFO]    Write to txt:          ----------------------------------- false
+[INFO]    Separated signals      ----------------------------------- false
+[INFO]    Standard units:        ----------------------------------- false
+[INFO]    Permeability:          ----------------------------------- false
+[INFO]    Custom seed:           ----------------------------------- false
+[INFO]    Write phase shift histogram: ----------------------------- false
+[INFO]    Write propagator file: ----------------------------------- false
+[INFO]    Walker initial position file: ---------------------------- false
+[INFO]    Save fixed walker positions: ----------------------------- false
+[INFO]    Initial delta position: ---------------------------------- false
+[INFO]    Random sampling:       ------------------------------------ true
+[INFO]    Number of voxels:      --------------------------------------- 1
+[INFO]    Boundary conditions:   -------------------------------- Periodic
+[INFO]    Custom spawning area:  ------------------------------------ true
+[INFO]    Border Patrol          -------------------------------------- On
+[INFO]    Discard stuck spins    -------------------------------------- On
+[INFO]    Number of cores:       ----------------------------------------1
+[INFO]    Scheme file name:      --------------------------- scheme.scheme
+[INFO]    Date and Time:         ------------------- 25-05-2026 (15:33:44)
+
+[INFO]     All 1 simulations ended after: 13 minutes and 40 seconds in average
+[INFO]     Number of particles labeled as stuck: 2
+[INFO]     Number of particles eliminated due crossings: 0
+[INFO]     Mean simulation speed: 57804 steps/second
+[INFO]     Voxel limits:
+( 0 0 0 )
+( 0.1339822024 0.0831633009 0.15 )
+[INFO]     Custom sampled area (mm):
+( 0.0204450488 0.0204450488 0.0599999987 )
+( 0.1013569534 0.0551579520 0.0900000036 )

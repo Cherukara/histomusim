@@ -1,2 +1,10 @@
 using_Histo_uSim/protocols/
+signal_synthesis/synthesized_signals/
 *.npy
+*.traj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+

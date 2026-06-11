@@ -176,7 +176,7 @@ def synthesis_misc_PGSE(Nspins, Ntime, Tdur, substrate, SEQUENCE_NAME):
     # Simulation parameters
     Nsteps = Ntime + 1  # number of simulation interations
     # Random walks directory
-    trajdir = f"./simulations/{substrate}"
+    trajdir = f"../simulations/{substrate}"
     # Get all trajectory files
     traj_files = sorted(gb.glob(f"{trajdir}/random_walks/*_0.traj"))
     # Sequence parameters

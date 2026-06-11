@@ -9,7 +9,7 @@ dur = 110  # ms
 ply_scale = 1
 dval = np.linspace(0.8, 3, 5)
 dval = np.round(dval, decimals=4)
-permeability_value_range = np.linspace(0,40,9) # um/s
+permeability_value_range = np.linspace(15,15,1) # um/s
 ply_files = gb.glob("ply_files/*.ply")
 
 for sub in ply_files:
@@ -62,7 +62,7 @@ for sub in ply_files:
                     l_diffintra = f"diff_intra {dvalin}e-6\n" # mm^2/ms
                     l_diffextra = f"diff_extra {dvalex}e-6\n" # mm^2/ms
                     l5 = f"exp_prefix {prefix}_Din{dvalin}_Dex{dvalex}_k{kappa}um_per_s\n"
-                    l7 = f"scheme_file ../../scheme_files/scheme.scheme\n"
+                    l7 = f"scheme_file ../scheme_files/scheme.scheme\n"
                     l8 = "\n"
                     l9 = "write_txt 0\n"
                     l10 = "write_bin 1\n"
